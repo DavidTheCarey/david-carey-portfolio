@@ -34,6 +34,10 @@ footer > h1 {
     margin-right: 100px;
 }
 
+.bold {
+    color: rgb(181, 181, 0);
+}
+
 .contactContainer {
     display: flex;
     margin-top: 10px;
@@ -76,6 +80,7 @@ nav > a {
 
 .bio {
     width: 75%;
+    font-size: 18px;
     
 }
 
@@ -182,17 +187,21 @@ nav > a {
         margin-top: 30px;
     }
     .bio {
-        font-size: 7px;
+        font-size: 8px;
     }
     .strengths {
-        font-size: 8px;
+        font-size: 9px;
     }
     .weaknesses {
-        font-size: 8px;
+        font-size: 9px;
+    }
+
+    .skillsContainer {
+        margin-top: -120px;
     }
 
     .skillsContainer > div {
-        font-size:6px;
+        font-size:14px;
     }
 
     .project > ul > li {
@@ -205,16 +214,20 @@ nav > a {
     }
 
     footer > h1 {
-        width: 50px;
+        /* width: 50px; */
         text-wrap: nowrap;
     }
 
     .contactContainer {
+        flex-direction: column;
         flex-wrap: nowrap;
+        text-align: center;
+        justify-content: center;
     }
 
     .contactContainer > * {
         font-size: 12px;
+        margin-bottom: 5px;
         text-wrap: nowrap;
     }
 
@@ -225,5 +238,9 @@ nav > a {
     .icon {
         font-size: 14px; 
         margin-right: 5px;
+    }
+
+    nav > a {
+        font-size: 10px;
     }
   }
