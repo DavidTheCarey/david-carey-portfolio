@@ -28,8 +28,6 @@ footer {
     /* width: 100%; */
     border-top: solid darkgreen;
     border-width: 0.5rem;
-    display: flex ;
-    flex-direction: row;
 }
 
 footer > h1 {
@@ -38,7 +36,8 @@ footer > h1 {
 
 .contactContainer {
     display: flex;
-    margin-top: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
     margin-bottom: 30px;
 }
 
@@ -175,26 +174,34 @@ nav > a {
     }
 
     .myInfo > h1 {  
-        font-size: 48px;
+        font-size: 36px;
         margin-top: 80px;
     }
     .myInfo > img {
-        width: 200px;
+        width: 175px;
         margin-top: 30px;
     }
     .bio {
-        font-size: 10px;
+        font-size: 7px;
     }
     .strengths {
-        font-size: 12px;
+        font-size: 8px;
     }
     .weaknesses {
-        font-size: 12px;
+        font-size: 8px;
+    }
+
+    .skillsContainer > div {
+        font-size:6px;
     }
 
     .project > ul > li {
         font-size: 12px;
         margin-right: 10px;
+    }
+
+    .project > div {
+        font-size: 14px;
     }
 
     footer > h1 {
@@ -203,8 +210,7 @@ nav > a {
     }
 
     .contactContainer {
-        margin-left: -130px;
-        margin-top: 70px;
+        flex-wrap: nowrap;
     }
 
     .contactContainer > * {
