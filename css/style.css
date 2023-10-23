@@ -178,37 +178,35 @@ nav > a {
 
     body {
         /* color: purple; */
+        width: 90%;
     }
 
     .myInfo {
-        margin-bottom: -60px;
+        margin-top: -30px;
+        margin-bottom: -100px;
     }
 
     .myInfo > h1 {  
-        font-size: 16px;
-        margin-top: 85px;
+        font-size: 32px;
+        margin-top: 65px;
     }
     .myInfo > img {
         width: 175px;
         margin-top: 30px;
     }
     .bio {
-        font-size: 6.5px;
-        width:35%
+        font-size: 8.5px;
+        width:55%
     }
     .strengths {
-        width: 35%;
-        font-size: 7px;
+        width: 55%;
+        font-size: 11px;
         margin-top: 10px;
         margin-bottom: 10px;
     }
     .weaknesses {
-        width: 35%;
-        font-size: 7px;
-    }
-
-    .skillsContainer {
-        margin-top: -120px;
+        width: 55%;
+        font-size: 11px;
     }
 
     .skillsContainer > div {
