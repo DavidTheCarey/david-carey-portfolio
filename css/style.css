@@ -166,6 +166,10 @@ nav > a {
 
 @media (max-width: 800px) {
 
+    body {
+        color: purple;
+    }
+
     .myInfo {
         margin-bottom: -60px;
     }
