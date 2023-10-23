@@ -14,9 +14,9 @@ body {
 nav {
     color: green;
     text-align: right;
-    position: absolute;
-    top: 10px;
-    right: 20px;
+    /* top: 10px;
+    right: 20px; */
+    padding-top: 10px;
     font-size: 20px;
     border-bottom: solid darkgreen;
     border-width: 0.5rem;
@@ -43,10 +43,12 @@ footer > h1 {
     margin-top: 10px;
     margin-left: 30px;
     margin-bottom: 30px;
+    justify-content: center;
 }
 
 .contactContainer > * {
     margin-right: 50px;
+    font-size: 18px;
 }
 
 .contactContainer > a {
@@ -79,13 +81,13 @@ nav > a {
 }
 
 .bio {
-    width: 75%;
+    width: 70%;
     font-size: 18px;
     
 }
 
 .strengths {
-    width: 85%;
+    width: 70%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -187,13 +189,13 @@ nav > a {
         margin-top: 30px;
     }
     .bio {
-        font-size: 8px;
+        font-size: 11px;
     }
     .strengths {
-        font-size: 9px;
+        font-size: 11px;
     }
     .weaknesses {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .skillsContainer {
@@ -219,7 +221,7 @@ nav > a {
     }
 
     .contactContainer {
-        flex-direction: column;
+        /* flex-direction: column; */
         flex-wrap: nowrap;
         text-align: center;
         justify-content: center;
